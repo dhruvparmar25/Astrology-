@@ -1,10 +1,13 @@
 import React from 'react'
 import './index.css'
 
+import Hero from './comonent/Hero'
+
 function App() {
   return (
-    <div className='bg-amber-500 text-center'>App</div>
-  )
+<>
+<Hero/>
+</>)
 }
 
 export default App
