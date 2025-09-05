@@ -1,6 +1,15 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+.title{
+     font-family: "Roboto", sans-serif;
+     font-size: 24px;
+     font-weight: 400;
+     color: rgb(0, 0, 0);
+     line-height: 30px;
+     text-align: center;
+     margin: 1.5rem 0rem;
+}
 /* Top-Nav font Css */
 .font-roboto{
     font-family: "Roboto", sans-serif;

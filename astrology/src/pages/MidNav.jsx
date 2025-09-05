@@ -11,7 +11,7 @@ function MidNav() {
                 <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
             </div>
             <div className="logo">
-                <div className="logo"><img src="https://static.joonsite.com/storage/46059/media/2508292359034570.png"width={329} height={65} /></div>
+                <a href='/' className="logo"><img src="https://static.joonsite.com/storage/46059/media/2508292359034570.png"width={329} height={65} /></a>
             </div>
             <div className="srch flex justify-center items-center gap-5">
                 <div className="srch"><i class="fa-solid fa-magnifying-glass"></i></div>
