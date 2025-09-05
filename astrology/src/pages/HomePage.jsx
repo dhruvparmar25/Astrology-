@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../comonent/Card'
+import Sunsigns from '../comonent/Sunsigns'
 
 function HomePage() {
   return (
@@ -10,6 +11,10 @@ function HomePage() {
       <section>
         <div className="title">Explore Your Free Astrology Services</div>
         <div className="crads flex gap-10 justify-center items-center"><Card /></div>
+      </section>
+      <section>
+        <div className="title">Sunsigns Yearly Horoscope 2025</div>
+        <Sunsigns/>
       </section>
     </div>
   )

@@ -14,6 +14,7 @@ import Career from './pages/Career.jsx';
 import FAstrology from './pages/FAstrology.jsx';
 import Blog from './pages/Blog.jsx';
 import More from './pages/More.jsx';
+import Footer from './comonent/Footer.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -31,8 +32,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/astrology' element={<FAstrology />} />
       <Route path='/blog' element={<Blog />} />
       <Route path='/more' element={<More />} />
-
-
       <Route path='/kundlimatching' element={<KundliMatching />} />
     </Routes>
+    <Footer/>
   </BrowserRouter>)
